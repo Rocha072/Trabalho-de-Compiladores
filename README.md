@@ -16,7 +16,7 @@ Ele faz a leitura de um código-fonte, identifica os **tokens** e realiza a aná
 ---
 
 ## 📂 Estrutura do Projeto
-
+```plaintext
 📁 Trabalho-de-Compiladores/       
  ├── AnaLex.cpp       # Implementação do analisador léxico
  ├── AnaLex.h         # Cabeçalho do analisador léxico
