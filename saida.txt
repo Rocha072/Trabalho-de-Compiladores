@@ -1,0 +1,23 @@
+Lprog  id0 L; 
+	Lvar  
+		id1 L,  id2 L,  id3 L:  Lint L; 
+	Lproc  id4 L; 
+		Lvar  id5 L:  Lint L; 
+	Lbeg 
+		id5 L:= id3 L* id3 L; 
+		Lif  L( id3  Ldiv  num0 L) L* num0  L=  id3  Lthen 
+			id2 L:= id2 L+ id5 
+		Lelse 
+			id2 L:= id2 L- id5 
+	Lend L; 
+Lbeg 
+	id6 L( id1 L) L; 
+	id2 L:= num1 L;  id3 L:= num1 L; 
+	Lwhile  id3 L<= id1  Ldo 
+	Lbeg 	
+		id4 L; 
+		id7  L( id2 L) L; 
+		id3 L:= id3 L+ num2 
+	Lend 
+Lend L. 
+			
